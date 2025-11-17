@@ -1,0 +1,22 @@
+# Vivado generated folders
+*.runs/
+*.cache/
+*.sim/
+*.hw/
+*.ip_user_files/
+xsim.dir
+
+# Vivado reports
+*.log
+*.jou
+*.str
+*.rpt
+*.html
+
+# Simulation junk
+*.wdb
+*.pb
+
+# Temporary files
+*.tmp
+*.backup
