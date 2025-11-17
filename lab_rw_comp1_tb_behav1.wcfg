@@ -10,18 +10,22 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="3225063702fs"></ZoomStartTime>
-      <ZoomEndTime time="3226093703fs"></ZoomEndTime>
-      <Cursor1Time time="3224835702fs"></Cursor1Time>
+      <ZoomStartTime time="162700fs"></ZoomStartTime>
+      <ZoomEndTime time="266501fs"></ZoomEndTime>
+      <Cursor1Time time="180000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="276"></NameColumnWidth>
-      <ValueColumnWidth column_width="208"></ValueColumnWidth>
+      <ValueColumnWidth column_width="204"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="17" />
+   <WVObjectSize size="18" />
    <wvobject type="logic" fp_name="/conv_block_tb/uut_conv/u_conv_layer/u_linebuffer/clk">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/conv_block_tb/uut_conv/valid_in">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/conv_block_tb/uut_conv/u_conv_layer/u_linebuffer/window_out">
       <obj_property name="ElementShortName">window_out[215:0]</obj_property>
@@ -81,8 +85,8 @@
       <obj_property name="isExpanded"></obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/conv_block_tb/uut_conv/u_conv_layer/u_conv_core/mult_values">
-      <obj_property name="ElementShortName">mult_values[0:2][0:8][26:0]</obj_property>
-      <obj_property name="ObjectShortName">mult_values[0:2][0:8][26:0]</obj_property>
+      <obj_property name="ElementShortName">mult_values[0:2][0:8][28:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_values[0:2][0:8][28:0]</obj_property>
       <obj_property name="isExpanded"></obj_property>
       <obj_property name="Radix">BINARYRADIX</obj_property>
    </wvobject>

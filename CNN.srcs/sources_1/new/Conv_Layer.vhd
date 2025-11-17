@@ -67,7 +67,7 @@ generic (
         pixel_out  : out std_logic_vector(integer(ceil(log2(real(2**(INT_BITS_WEIGHT*2)*KERNEL_SIZE**2*CHANNELS))))+FRAC_BITS_WEIGHT +1 -1 downto 0);
         valid_out  : out std_logic;
         ctrl_in    : in std_logic;
-        ctrl_out   : out std_logic;
+        --ctrl_out   : out std_logic;
         valid_linebuffer: out std_logic;
         row_ptr         : in unsigned(integer(ceil(log2(real(HEIGHT)))) downto 0);
         col_ptr         : in unsigned(integer(ceil(log2(real(WIDTH)))) downto 0)

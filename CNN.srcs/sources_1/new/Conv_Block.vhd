@@ -117,7 +117,7 @@ begin
             pixel_out   => data_acc,
             valid_out   => valid_acc,
             ctrl_in => ctrl_out_conv, 
-            ctrl_out => ctrl_in_conv,
+            --ctrl_out => ctrl_in_conv,
             row_ptr     => row_ptr,
             col_ptr     => col_ptr
         );
