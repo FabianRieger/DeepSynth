@@ -40,7 +40,7 @@ architecture Behavioral of Max_Pooling_tb is
 
     component writefile_comp_1pixel_rgb
       generic(
-            FileName : string := "/home/rif45011/Documents/CNN/output_image_Max_Pooling.dat"  
+            FileName : string := "../../../../TestCode/output_image_Max_Pooling.dat"  
       );
       Port ( 
             clk  : in  STD_LOGIC;
@@ -52,7 +52,7 @@ architecture Behavioral of Max_Pooling_tb is
     
     component readfile_comp_bin_rgb
       generic(
-            FileName : string := "/home/rif45011/Documents/CNN/input_image.dat"
+            FileName : string := "../../../../TestCode/input_image.dat"
    
       );
       Port ( 
@@ -129,7 +129,7 @@ begin
 
     write1: writefile_comp_1pixel_rgb
       generic map(
-            FileName => "/home/rif45011/Documents/CNN/output_image_Max_Pooling.dat"
+            FileName => "../../../../TestCode/output_image_Max_Pooling.dat"
             
       )
       Port map( 
@@ -141,7 +141,7 @@ begin
       
     read1: readfile_comp_bin_rgb
       generic map(
-            FileName => "/home/rif45011/Documents/CNN/input_image.dat"          
+            FileName => "../../../../TestCode/input_image.dat"          
       )
       Port map( 
             clk   => clk,

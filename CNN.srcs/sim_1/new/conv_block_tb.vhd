@@ -38,9 +38,9 @@ end conv_block_tb;
 
 architecture Behavioral of conv_block_tb is
 
-    component writefile_comp_1pixel_rgb
+    component writefile_comp_1pixel_rgb 
       generic(
-            FileName : string := "/home/rif45011/Documents/CNN/output_image_Conv_layer_ones.dat"  
+            FileName : string := "../../../../TestCode/output_image_Conv_layer.dat"  
       );
       Port ( 
             clk  : in  STD_LOGIC;
@@ -52,7 +52,7 @@ architecture Behavioral of conv_block_tb is
     
     component readfile_comp_bin_rgb
       generic(
-            FileName : string := "/home/rif45011/Documents/CNN/input_image.dat"
+            FileName : string := "../../../../TestCode/input_image.dat"
    
       );
       Port ( 
@@ -211,7 +211,7 @@ begin
 
     write1: writefile_comp_1pixel_rgb
       generic map(
-            FileName => "/home/rif45011/Documents/CNN/output_image_Conv_layer_ones.dat"
+            FileName => "../../../../TestCode/output_image_Conv_layer.dat"
             
       )
       Port map( 
@@ -223,7 +223,7 @@ begin
       
     read1: readfile_comp_bin_rgb
       generic map(
-            FileName => "/home/rif45011/Documents/CNN/input_image.dat"          
+            FileName => "../../../../TestCode/input_image.dat"          
       )
       Port map( 
             clk   => clk,
